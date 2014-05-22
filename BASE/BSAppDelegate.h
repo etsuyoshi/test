@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BSBuyTopViewController.h"
+
 
 @interface BSAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) BSBuyTopViewController *viewController;
 
 @end
